@@ -9,8 +9,8 @@ Bas Vaessen | Semester 3 Software | 11-03-2022
 # Inhoud
 - [Hoofddoel applicatie](#hoofddoel-applicatie)
   * [Gebruikers](#gebruikers)
-- [Requirements:](#requirements-)
-- [User stories:](#user-stories-)
+- [Requirements:](#requirements)
+- [User stories:](#user-stories)
 
 # Hoofddoel applicatie
 
