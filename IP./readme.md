@@ -2,9 +2,7 @@
 
 # Individueel project
 
-Marc van grootel, Jean paul ligthart
-
-Bas Vaessen | Semester 3 Software | 11-03-2022
+Bas Vaessen | Semester 3 Software
 
 # Inhoud
 - [Hoofddoel applicatie](#hoofddoel-applicatie)
