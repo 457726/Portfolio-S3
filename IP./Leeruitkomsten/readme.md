@@ -2,7 +2,7 @@
 
 - [Web applicatie](#web-applicatie)
 - [Softwarekwaliteit](#softwarekwaliteit)
-- [CI/CD](#ci cd)
+- [CI/CD](#cicd)
 - [Professional](#professional)
 
 # Web applicatie
