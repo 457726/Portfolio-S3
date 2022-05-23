@@ -25,7 +25,7 @@ Mijn applicatie biedt ook een mogelijkheid om op een specifiek onderwerp te zoek
 ### **Accounts**
 Ik maak gebruik van auth0 voor user-accounts, zo kan ik gebruikers bijhouden. Ook wil ik er voor zorgen dat gebruikers een beoordeling kunnen achterlaten op een artikel.
 
-![](https://imgur.com/20A6xBF)
+![](https://imgur.com/20A6xBF.jpg)
 # **Softwarekwaliteit**
 Om de softwarekwaliteit aan te tonen maak ik gebruik van SonarCloud, deze analyseert mijn code automatisch en goed gereviewed wordt. Iedere keer dat ik mijn code push naar git wordt deze geanalyseerd.
 
