@@ -11,6 +11,7 @@ Voor het bouwen van een full-stack applicatie zal ik gebruik gaan maken van een 
 - BetterNews-BackEnd
 
 ## **BetterNews-FrontEnd**
+[Repository](https://github.com/457726/betternewsfrontend-s3)
 ### **Homepage**
 Op de homepage krijg je een overzicht te zien van de meest trending nieuwsartikelen op dat moment, zodat mensen die niet opzoek zijn naar een specifiek onderwerp maar naar actualiteiten ook terecht kunnen op mijn website.
 ( afbeelding )
@@ -31,6 +32,7 @@ Om de softwarekwaliteit aan te tonen maak ik gebruik van SonarCloud, deze analys
 
 ![](https://imgur.com/MLqODCY.jpg)
 ## **BetterNews-BackEnd**
+[Repository](https://github.com/457726/VueBackEnd)
 ### **NewsAPI**
 Om mijn artikelen op te halen maak ik gebruik van een newsapi, deze geeft resultaten van verschillende nieuws websites wereldwijd. In mijn applicatie verwerk ik deze data tot passende data en zorg ik voor verschillende mogelijkheden om deze informatie op te halen.
 
