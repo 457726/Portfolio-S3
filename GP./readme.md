@@ -6,41 +6,39 @@
 
     You design and build **user-friendly**, **full-stack** web applications**.**
 
-Om deze leeruitkomst aan te tonen in het groepsproject hebben we met zijn alle samen gewerkt om een full-stack web applicatie te maken voor onze stakeholders. 
+Voor deze leeruitkomst binnen ons groepsproject hebben we gezamelijk aan een full-stack applicatie gewerkt. Hiervoor hebben we een aparte front- en backend. Dit met de opdracht om een klein PIM systeem te ontwikkelen. 
 
-De opdracht is dat we een kleinere variant moeten maken van een PIM-systeem.
+**Wat is een PIM?**
 
-**Wat is een PIM-systeem?**
+Een Product Information Management (PIM) systeem is een must binnen organisaties die veel (online) producten verkopen. Dit helpt producenten, groothandelaren en (r)etailers bij het aanbieden van volledige en consistente product informatie aan de klant.
 
-In een Product Informatie Management (PIM) systeem beheert en ordent een onderneming alle relevante informatie over de producten die zij produceert of verkoopt.
+**Van welke technieken gaan we gebruikmaken?**
 
-De applicatie van ons groepsproject is geschreven in C# voor de back-end en vue.js voor de front-end. 
+We hebben er voor gekozen om de front-end in vue.js te schrijven, we hebben voor vue gekozen omdat we graag een voor ons nog relatief onbekende taal wouden gebruiken omdat dit onze ontwikkeling als ontwikkelaar ten goede komt.
 
-
-###  **PIM front-end**
-
-Repository: <https://github.com/431433/s3-pimfrontend>
-
-De applicatie is eerst ontworpen via schermschetsen in Adobe XD.  Deze hebben we gebruikt om eerst een demo te geven om ons beeld duidelijk te weergeven aan de stakeholders en ervoor te zorgen dat we hun opdracht goed begrijpen.
+Voor de back-end hebben we gekozen voor een Web-API project met als programmeertaal C#, dit hebben we gedaan door de brede support voor C# en de mogelijkheid van het vinden van veel relevante informatie.
 
 
-***<p>Eerste schermschets voor product te creëren</p>***
+###  **De front-end van ons project**
+
+de repository is te vinden in volgende link: <https://github.com/431433/s3-pimfrontend>
+
+Ons eerste ontwerp hebben we gemaakt in Adobe-XD, hier hebben we voor gekozen omdat we eerst goed in beeld wilden hebben wat we willen gaan maken. En omdat we het belangrijk vonden om al een voorbeeld te kunnen geven aan de stakeholders zodat er op het gebied van design zo min mogelijk onduidelijkheden zouden zijn.
+
+
+***<p>Onze schermschets voor het creëren van een product</p>***
 <img src="https://user-images.githubusercontent.com/77282414/172335896-efbd6490-6595-4826-aac4-0082a4f3f6e5.png" width="650">
 
-***<p>Uiteindelijke versie voor product te creëren</p>***
+***<p>Ons uiteindelijke ontwerp voor het creëren van een product</p>***
 <img src="https://user-images.githubusercontent.com/77282414/172337541-194c40fa-1829-4c20-b82c-561816b4dd09.png" width="650">
 
 
-### **PIM back-end**
+### **De back-end van ons project**
 
-Repository: 
+de repository is te vinden in volgende link: 
 
 
-Om te communiceren met de front-end maken wij gebruik van API call’s. De front-end gebruikt dan een extensie, Axios, om die API call aan te roepen en alle nodige data te laten weergeven of data te versturen via de front-end.
-
-***<p>Axios call van de front-end</p>***
-<img src="https://user-images.githubusercontent.com/77282414/172338566-e74807b2-469f-4832-85c6-482e2b9896f6.PNG" width="750">
-
+We hebben onze eigen API's ontwikkeld met de bijbehorende endpoints. Dit doen we zodat we de voor ons relevante informatie handig op kunnen halen en gebruiken. Binnen de front-end maken we gebruik van axios voor de communicatie met de API's van de back-end.
 
 ## **3. Agile method** 
       **Learning outcome**
@@ -49,25 +47,14 @@ Om te communiceren met de front-end maken wij gebruik van API call’s. De front
 
 Om deze leeruitkomst aan te tonen maken wij als groep gebruik van Agile Scrum.
 
-(Hier komt een korte uitleg van Agile Scrum)
+Scrum is een werkwijze om op een flexibele manier software of producten te maken. Er wordt gewerkt in multidisciplinaire teams die in korte sprints, met een vaste lengte van een tot vier weken, werkende software of producten opleveren. Scrum is een term die afkomstig is uit de rugbysport. Bij een scrum probeert een team samen een doel te bereiken en de wedstrijd te winnen. Samenwerking is heel belangrijk en men moet snel kunnen inspelen op veranderende omstandigheden.
 
-(Hier komt een korte uitleg over onze onderlinge samenwerking en werkwijze.)
+Scrum wordt vaak gebruikt bij software of producten waarvan de klant of gebruiker nog niet goed weet wat hij wil en waarbij men al doende leert om de eisen en wensen beter te beschrijven en in bruikbare software of producten om te zetten. Vaak weet men pas wat men wil als men het prototype ziet en dan worden alsnog de eisen aangepast. Scrum heeft de flexibiliteit om met laat-wijzigende eisen en wensen om te gaan. Scrum valt onder de agile-softwareontwikkeling.
 
-<img src="https://user-images.githubusercontent.com/77282414/172338984-03596553-85a6-4cdf-bb91-7f92a40a17c0.svg" width="750">
+Onze communicatie verloopt natuurlijk face-to-face, en in de online omgeving doen we dit binnen onze groepsdiscord. Hier is iedereen aanspreekbaar en zorgen we voor duidelijke en fijne communicatie. Het is ook laagdrempelig waardoor het ook niet vervelend is om hier gebruik van te maken
 
+<img src="https://www.partnerincoaching.nl/agile-4-redenen-om-te-scrummen-binnen-gemeentes/" width="750">
 
-
-
-
-
-
-
-
-Hier komt alle communicatie die wij hebben gehad voor de retrospectieve  gesprekken en progressie verhalen.
-
-<img src="https://user-images.githubusercontent.com/77282414/172339240-6f1f849a-a73f-409e-8e8a-70078a0975fc.PNG" width="150">
-
-(Trello invoegen)
 
 ## **5. Cultural differences and ethics** 
 
