@@ -53,7 +53,7 @@ Scrum wordt vaak gebruikt bij software of producten waarvan de klant of gebruike
 
 Onze communicatie verloopt natuurlijk face-to-face, en in de online omgeving doen we dit binnen onze groepsdiscord. Hier is iedereen aanspreekbaar en zorgen we voor duidelijke en fijne communicatie. Het is ook laagdrempelig waardoor het ook niet vervelend is om hier gebruik van te maken
 
-<img src="https://www.partnerincoaching.nl/agile-4-redenen-om-te-scrummen-binnen-gemeentes/" width="750">
+<img src="https://www.partnerincoaching.nl/wp-content/uploads/2018/11/Agile-Scrum-sprint-cycle.jpg" width="750">
 
 
 ## **5. Cultural differences and ethics** 
