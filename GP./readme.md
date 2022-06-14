@@ -87,7 +87,7 @@ Hierdoor bleef voor ons duidelijk wat het streven was en waar we naartoe zouden 
 
 We hebben bij de schermschetsen dus gekozen voor Adobe XD. Dit hebben we gedaan omdat we dan een concrete wireframe konden opzetten in de vorm van een interactieve schermschets. Hierdoor hadden we snel duidelijk voor de opdrachtgever hoe wij in gedachte hadden dat het er uit moest gaan zien en wat we zouden gaan maken. Ook voor ons team was dit erg fijn.
 
-< img src="https://user-images.githubusercontent.com/77282414/173248764-38eb3638-acdc-423d-82a6-c4aef91dbb43.png">
+<img src="https://user-images.githubusercontent.com/77282414/173248764-38eb3638-acdc-423d-82a6-c4aef91dbb43.png" width="650">
 
 Het ontwerpen van een gebruikersinterface is een proces. Alles begint  met een idee, maar dat idee moet vertaald worden naar een gebruikersinterface. Het is niet genoeg om te zeggen "Ik wil een applicatie die X, Y en Z kan doen". Je moet weten wat de gebruiker op elk scherm van je app ziet om X, Y en Z te kunnen doen. 
  
@@ -95,7 +95,7 @@ Sketching brengt je verbeeldingskracht van de wolken naar het UI-scherm waar je 
 
 We hebben dan ook gebruik gemaakt van black-box testing. Dit houdt in dat we een gebruiker, in dit geval de stakeholder zonder enige context door onze schermschetsen laten gaan. Op onze beurt kijken wij dan weer hoe er verwacht wordt dat het werkt en hoe de gebruiker hier op reageert.
 
-< img src="https://www.researchgate.net/profile/Fazlullah-Khan-2/publication/303280520/figure/fig1/AS:376806143217664@1466848993069/Different-forms-of-Black-Box-Testing-3.png ">
+<img src="https://www.researchgate.net/profile/Fazlullah-Khan-2/publication/303280520/figure/fig1/AS:376806143217664@1466848993069/Different-forms-of-Black-Box-Testing-3.png" width="650">
 
 Daarnaast hebben we onze website nog door een performance tester gedaan. 
 Dit resultaat is hier te vinden: <https://gtmetrix.com/reports/kind-sky-062238903.1.azurestaticapps.net/mYJSRQvH/>
@@ -136,4 +136,5 @@ Voor het zo soepel mogelijk samenwerken binnen github hebben we gebruik gemaakt 
 
 Dit is het branch verloop van onze git repository:
 
-< img src="https://user-images.githubusercontent.com/77282414/173251063-a283d762-1a96-4929-a0f5-1285c0e213df.PNG">
+<img src="https://user-images.githubusercontent.com/77282414/173251063-a283d762-1a96-4929-a0f5-1285c0e213df.PNG" width="650"
+     >
