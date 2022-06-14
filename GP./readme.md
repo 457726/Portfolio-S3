@@ -95,7 +95,8 @@ Sketching brengt je verbeeldingskracht van de wolken naar het UI-scherm waar je 
 
 We hebben dan ook gebruik gemaakt van black-box testing. Dit houdt in dat we een gebruiker, in dit geval de stakeholder zonder enige context door onze schermschetsen laten gaan. Op onze beurt kijken wij dan weer hoe er verwacht wordt dat het werkt en hoe de gebruiker hier op reageert.
 
-<img src="https://www.researchgate.net/profile/Fazlullah-Khan-2/publication/303280520/figure/fig1/AS:376806143217664@1466848993069/Different-forms-of-Black-Box-Testing-3.png" width="650">
+![papap](https://user-images.githubusercontent.com/99723279/173565559-51907353-5eb4-464e-9894-4a6f9d3f54f4.png)
+
 
 Daarnaast hebben we onze website nog door een performance tester gedaan. 
 Dit resultaat is hier te vinden: <https://gtmetrix.com/reports/kind-sky-062238903.1.azurestaticapps.net/mYJSRQvH/>
