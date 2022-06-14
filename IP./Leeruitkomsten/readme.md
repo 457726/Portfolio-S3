@@ -38,7 +38,7 @@ Om mijn artikelen op te halen maak ik gebruik van een newsapi, deze geeft result
 
 ![](https://imgur.com/zZh9dOI.jpg)
 # **CI/CD**
-Voor CI/CD wil ik gebruik gaan maken van een passend framework, waar de gepushte code automatisch getest zal worden. Wanneer deze tests succesvol zijn wordt de code automatisch uitgerold naar een passende service om dit te doen.
+Voor CI/CD heb ik bij zowel de front- als backend in github actions verschillende .yaml bestaden. Aan de hand van deze bestanden wordt mijn code automatisch gepusht en gedeployed.
 
 Op dit moment heb ik in mijn github verschillende .yaml bestanden die automatisch integreren.
 # **Professional**
