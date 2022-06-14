@@ -136,4 +136,4 @@ Voor het zo soepel mogelijk samenwerken binnen github hebben we gebruik gemaakt 
 
 Dit is het branch verloop van onze git repository:
 
-< img src= https://user-images.githubusercontent.com/77282414/173251063-a283d762-1a96-4929-a0f5-1285c0e213df.PNG>
+< img src="https://user-images.githubusercontent.com/77282414/173251063-a283d762-1a96-4929-a0f5-1285c0e213df.PNG">
