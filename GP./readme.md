@@ -106,6 +106,18 @@ Dit resultaat is hier te vinden: <https://gtmetrix.com/reports/kind-sky-06223890
 
       You analyze and describe **simple** business processes that are **related** to your project.
 
+Het bedrijfsproces kan als volgt worden gedefinieerd: 
+ 
+Een reeks activiteiten om een product of dienst te leveren die  waarde toevoegt voor de klant. 
+Een keten van activiteiten die met elkaar zijn verbonden en geleid door beslissingen. 
+Dit vereist materiële of immateriële bedrijfsactiviteiten. Coördinatie vereist afstemming door  met elkaar te communiceren. Deze activiteiten kunnen informatie vereisen over andere activiteiten binnen hetzelfde of een ander bedrijfsproces.Informatie over bedrijfsactiviteiten en  coördinatie kan  worden vastgelegd in een informatiesysteem.
+
+Een bedrijfsproces herhaalt zich vaak binnen een bepaalde structuur in een bedrijf. Zo blijft het goed te volgen en voor iedereen toepasbaar.
+
+Een bedrijfsproces wordt vaak beschouwd als een stroomdiagram of workflow van logische stappen, en het dient als een primaire basis voor verschillende gerelateerde ideeën zoals bedrijfsprocesbeheer, procesoptimalisatie, procestoewijzing, processimulatie, procesautomatisering, enz.
+
+Een workflow voor taakbeheer, ook wel workflowprocesbeheer genoemd, is een manier om een reeks kleinere taken te versnellen om een groter doel te bereiken. In ons geval hebben we deze workflow gebruikt om alle stappen duidelijk op papier te hebben die we moeten onderlopen om de kwaliteit van onze code hoog te houden. In de workflow, die je hier onder kan zien, kan je alle stappen volgen die we hebben gebruik dit semester. Zodra er een nieuw backlog item is gaat het aangewezen persoon beginnen met de rest van de workflow. De reviews stukken die te zien zijn in de workflow wordt gedaan door andere groepsgenoten. 
+<img src="https://user-images.githubusercontent.com/77282414/173546681-7e53a6c8-7d97-45e4-a64a-d942c9a48720.png" width="600">
 
 ## **8. Professional** 
       **Learning outcome:**
