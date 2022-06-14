@@ -62,6 +62,20 @@ Onze communicatie verloopt natuurlijk face-to-face, en in de online omgeving doe
 
       You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development.
 
+Cultuur omvat religie, eten, wat we dragen, hoe we het dragen, onze taal, huwelijk, muziek en is over de hele wereld anders. <a href="https://carla.umn.edu/culture/definitions.html" >Het Center for Advanced Research on Language Acquisition<a/> gaat een stap verder en definieert cultuur als gedeelde gedragspatronen en interacties, cognitieve constructies en begrip die worden geleerd door socialisatie. Cultuur kan dus worden gezien als de groei van een groepsidentiteit die wordt gestimuleerd door sociale patronen die uniek zijn voor de groep.
+   
+Binnen onze eigen groep hebben we deze culturele verschillen getest doormiddel van een presentatie die met ons is gedeeld via school. In deze presentatie staan vragen gefomuleerd over verschillende aspecten die je misschien tegen kan komen in het leven, bedoeld om onderling discussies te stimuleren.
+    
+Onze antwoorden:
+```
+      Bas: A, B, C, True, A
+      Jenson: A, B, C, True, A
+      Pepijn: A, A, C, True, B
+      Coen: A, B, C, True, A
+      Marijn: C, A, C, False, A
+ ```
+Er wordt gezegd dat medewerkers vaak meer overeenkomsten hebben dan verschillen, maar die verschillen kunnen soms groter zijn dan de overeenkomsten. Hoewel deze verschillende verschillen een levendiger omgeving kunnen creëren, kunnen ze ook leiden tot meer dan een paar problemen als gevolg van cultuurclash. Gelukkig desondanks dat we sommige vragen verschillend antwoorden, waren we bereid om elkaars andere perspectieve aan te horen en begrepen hun andere zicht op het probleem ook. 
+In het begin waren de culturele verschillen wel groter, dit was niks negatiefs, maar het was wel op te merken. Dit werd veroorzaakt door een groepsgenoot die Engels sprak, qua gedrag en  cognitieve constructies waren en weinig verschillen. Het verschil werd dan ook alleen opgemerkt in de taal.
 
 ## **6. Requirements and Design** 
       **Learning outcome:**
