@@ -79,3 +79,11 @@ Onze communicatie verloopt natuurlijk face-to-face, en in de online omgeving doe
       **Learning outcome:**
 
       You act in a **professional manner** during software development and learning.
+
+Dit semester moesten we voor de eerste keer met agile scrum gaan werken, we hadden als groepje wel al enige ervaring met aspecten van scrum, maar nog niet met concreet agile scrum werken. Enkele aspecten van de agile manier van werken die we toegpast hebben zijn het houden van dagelijkse stand-ups, sprint-reviews, sprint-plannings en retrospectives. In het begin van ons project liep het houden van de dagelijkse stand-ups nog niet zo soepel als zou moeten, hier hebben we over overlegd met onze vakdocent Marc. Na dit overleg verliep het houden van de stand-ups een stuk beter.
+
+Dit semester hebben gewerkt met sprints van 3 weken, en een laatste sprint van 2 weken. Na ieder van deze periodes hadden we een oplevermoment met onze opdrachtgever, hier behandelde we alles wat we hadden gemaakt in de afgelopen sprint en gaven we hier een demo van. Op hun beurt gaven ze ons dan weer concrete feedback, en maakten samen met ons afspraken over wat we komende sprint zouden gaan opleveren. Na de oplevering hielden we als groepje een retrospective en deden we daarna de sprint planning.
+
+Het contact van ons groepje verliep voornamelijk via discord, we hebben onze eigen discordserver opgezet voor het groepsproject. Bij ongeregeldheden zoals vertraging of ziekte werden deze hier gecomunniceerd. Dit was voor ons de ideale weg van communicatie omdat het lekker toegankelijk is en iedereen van ons al discord had.
+
+Naar mate het project vorderde merkte ik dat de communicatie binnen het groepje steeds beter verliep. We kende elkaar beter en hadden er dan ook geen moeite meer mee om elkaar aan te spreken of vragen te stellen. Zo heb ik ook gemerkt dat voornamelijk in de 2e helft van het project ik me bij vragen over mijn individuele project steeds meer geneigd voelde om met deze vraag naar mijn groepje te gaan.
