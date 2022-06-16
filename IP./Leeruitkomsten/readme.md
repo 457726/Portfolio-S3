@@ -26,6 +26,30 @@ Mijn applicatie biedt ook een mogelijkheid om op een specifiek onderwerp te zoek
 ### **Accounts**
 Ik maak gebruik van auth0 voor user-accounts, zo kan ik gebruikers bijhouden. Ook wil ik er voor zorgen dat gebruikers een beoordeling kunnen achterlaten op een artikel.
 
+### **Beoordelingen**
+Het is ook mogelijk om een beoordeling achter te laten voor een artikel. Hiervoor klik je op de knop "Beoordeel". Je komt dan op een pagina waar je netjes je mening achter kan laten en er voor kan kiezen om 1 tot 5 sterren te geven.
+
+![image](https://user-images.githubusercontent.com/99723279/174195576-4fffa4a9-158f-4a1b-8266-b1f7cc1a2d85.png)
+
+## **BetterNews-BackEnd**
+[Repository](https://github.com/457726/VueBackEnd)
+
+## **API**
+
+Voor het ophalen van mijn nieuwsartikelen maak ik gebruik van een externe API van newsapi.org, dit is een erg toegankelijke API met veel mogelijkheden met betrekking tot het ophalen van verschillende artikelen.
+
+Hieronder een voorbeeld hoe ik artikelen kan verstrekken op basis van zoek criteria:
+![image](https://user-images.githubusercontent.com/99723279/174195903-0d5d8d65-e7bd-48df-abc1-e540bd1b26a9.png)
+
+Naast de verschillende endpoints die ik opgezet heb voor het ophalen van de nieuwsartikelen bied ik een gebruiker ook de mogelijkheid om een artikel een bepaalde beoordeling te geven. Hiervoor maak ik gebruik van een zelfgemaakte API die op zijn beurt vervolgens communiceert met mijn database die ik gehost heb bij fontys. Het gaat hier om een MYSQL database, dit soort databases zijn toegankelijk en makkelijk in gebruik.
+
+![image](https://user-images.githubusercontent.com/99723279/174196210-59eaa82b-718c-44d2-bbb2-e6209a894a2e.png)
+
+Natuurlijk heeft de gebruikte tabel in mijn database ook nog zijn eigen structuur. Ik sla de titel van het artikel op in combinatie met de beoordeling en eventuele opmerkingen. Dit ziet er als volgt uit.
+
+![image](https://user-images.githubusercontent.com/99723279/174196384-bd401e40-a64a-4978-b4e9-e8a57c2d7d38.png)
+
+
 ![](https://imgur.com/20A6xBF.jpg)
 # **Softwarekwaliteit**
 Om de softwarekwaliteit aan te tonen maak ik gebruik van SonarCloud, deze analyseert mijn code automatisch en goed gereviewed wordt. Iedere keer dat ik mijn code push naar git wordt deze geanalyseerd.
