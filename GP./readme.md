@@ -128,7 +128,7 @@ We zijn er achter gekomen dat de workflow hierboven geen business process is. He
    
 "Een swimming lane, ook wel swimlane of zwembaandiagram genoemd is een stroomdiagram die een proces in kaart brengt. In de basis is een swimming lane diagram een stroomdiagram of flowchart. Het verschil met een flowchart is dat in een swimming lane banen worden gebruikt. Deze banen lijken op zwembanen in een zwembad, vandaar de naam. De banen laten zien wie verantwoordelijk is voor de stappen in het proces. De verantwoordelijkheid kan weergegeven worden op verschillende niveaus. Bijvoorbeeld op het niveau van een afdeling, team of het individuele niveau van een werknemer. De banen laten zien waar overdrachts- of communicatiemomenten zijn. Uiteindelijk helpt een swimming lane om verspillingen of inefficiënte stappen in een proces te identificeren."
 
-Bron:<a href"https://bureautromp.nl/swimming-lane/">https://bureautromp.nl/swimming-lane/<a/>   
+Bron:https://bureautromp.nl/swimming-lane/ 
    
 Ik en Jenson hebben samen nog de swimminglane methode doorlopen en begrijpen waarom dit een handige manier van het in kaart brengen van je business process kan zijn, zo zie je precies wie waarvoor verantwoordelijk is. En wie wat moet doen, dit is erg inzichtelijk en een fijne manier van werken. 
    
