@@ -35,10 +35,14 @@ Ons eerste ontwerp hebben we gemaakt in Adobe-XD, hier hebben we voor gekozen om
 
 ### **De back-end van ons project**
 
-de repository is te vinden in volgende link: 
+de repository is te vinden in volgende link: https://github.com/PepijnMuskens/ProductService & https://github.com/PepijnMuskens/ApiGateWayWocPim
 
 
 We hebben onze eigen API's ontwikkeld met de bijbehorende endpoints. Dit doen we zodat we de voor ons relevante informatie handig op kunnen halen en gebruiken. Binnen de front-end maken we gebruik van axios voor de communicatie met de API's van de back-end.
+
+Onze Back-End bestond dus uit verschillende API controllers die alle handelingen mbt onze producten en merken voor rekening namen. Voor alle functionaliteiten die we nodig hadden hebben we wel onze eigen API Geschreven. Tussen onze API en Front-end hebben we ook nog gekozen voor een gateway. Dit omdat dit zorgt voor een extra stukje beveiliging. 
+
+Dit semester is de eerste keer dat ik gewerkt heb met een Front- en Backend die los van elkaar staan. Dit was in het begin toch wel echt even wennen. We moesten namelijk in een voor ons onbekende taal gaan leren hoe we interactie konden laten plaatsvinden met onze Back-end. Dus terwijl we de taal Vue.js aan het leren waren leerden we tegelijkertijd werken met heel erg veel verschillende nieuwe technieken. Dit verliep wel een stuk soepeler dan ik van tevoren verwacht had en hier ben ik erg blij mee. Ik heb hier ook veel van kunnen leren en heb het gevoel dat ik samen met de meewerkende groepsgenoten echt heb kunnen groeien als ontwikkelaar.
 
 ## **3. Agile method** 
       **Learning outcome**
@@ -55,6 +59,7 @@ Onze communicatie verloopt natuurlijk face-to-face, en in de online omgeving doe
 
 <img src="https://www.partnerincoaching.nl/wp-content/uploads/2018/11/Agile-Scrum-sprint-cycle.jpg" width="750">
 
+Ik heb dit semester dus voor de eerste keer gewerkt met agile scrum. Het concept scrum was me wel al bekend, hier had ik vorig semester ook mee gewerkt. Wel merkte ik dat er een verschil aanwezig is tussen de scrum die we vorig semester toe moesten passen en de agile scrum vorm die we nu toegepast hebben. Binnen agile heb je namelijk niet echt een rollenverdeling en is dus als het ware iedereen "de baas". Dit zorgde bij ons groepje in het begin toch wel voor een stroeve start en veel verwarring. Zeker omdat we gewend waren aan een andere vorm van scrum. Na een aantal keer evalueren met Marc heeft dit er toch wel voor gezorgd dat we zijn gaan groeien als groep en ook echt consistent stand-ups, retrospectives, sprint planningen en sprint reviews zijn gaan houden. Hierdoor kwam de structuur van agile wat meer in ons project en dit is erg goed bevallen. Iedereen is verantwoordelijk voor het project en we proberen elkaar zo goed mogelijk te ondersteunen waar mogelijk. In het vervolg lijkt het me vooral slim om echt vanaf het begin consistent te zijn met bijvoorbeeld stand-ups, dit zal nu ook makkelijker gaan omdat er een stuk meer kennis aanwezig is over de agile methode.
 
 ## **5. Cultural differences and ethics** 
 
@@ -74,8 +79,7 @@ Onze antwoorden:
       Coen: A, B, C, True, A
       Marijn: C, A, C, False, A
  ```
-Er wordt gezegd dat medewerkers vaak meer overeenkomsten hebben dan verschillen, maar die verschillen kunnen soms groter zijn dan de overeenkomsten. Hoewel deze verschillende verschillen een levendiger omgeving kunnen creëren, kunnen ze ook leiden tot meer dan een paar problemen als gevolg van cultuurclash. Gelukkig desondanks dat we sommige vragen verschillend antwoorden, waren we bereid om elkaars andere perspectieve aan te horen en begrepen hun andere zicht op het probleem ook. 
-In het begin waren de culturele verschillen wel groter, dit was niks negatiefs, maar het was wel op te merken. Dit werd veroorzaakt door een groepsgenoot die Engels sprak, qua gedrag en  cognitieve constructies waren en weinig verschillen. Het verschil werd dan ook alleen opgemerkt in de taal.
+Wat ik vooral gemerkt heb in het aspect van cultuur verschillen binnen ons groepje is in het begin van het project het feit dat een van de medestudenten geen Nederlands sprak. Echter is dit natuurlijk buiten de taalbarrière nog niet zo’n heel groot verschil. Ik heb naarmate het project vorderde toch ook wel echt gemerkt dat zelfs wanneer je hele team nederlands is zoals uiteindelijk bij ons het geval was je nogsteeds veel van elkaar kan verschillen. Zo zaten er bij ons in het groepje toch wel grote verschillend in bijvoorbeeld persoonlijkheid, manier van denken of manier van bepaalde dingen interpeteren. Dit ga je pas echt merken wanneer je een langere tijd met elkaar samen werkt terwijl je in eerste instantie zou verwachten dat deze verschillen wel meevallen, zeker als je uit het zelfde land komt. Later kom je er dan achter dat je perceptie van dingen toch wel anders is, echter is dit natuurlijk niet meteen slecht. We konden het uiteindelijk als ( overgebleven ) groep erg goed met elkaar vinden en hebben goede gesprekken kunnen voeren over onderwerpen die niet met school te maken hebben. Dit was erg fijn en een leerzame ervaring.
 
 ## **6. Requirements and Design** 
       **Learning outcome:**
@@ -120,6 +124,16 @@ Een bedrijfsproces wordt vaak beschouwd als een stroomdiagram of workflow van lo
 Een workflow voor taakbeheer, ook wel workflowprocesbeheer genoemd, is een manier om een reeks kleinere taken te versnellen om een groter doel te bereiken. In ons geval hebben we deze workflow gebruikt om alle stappen duidelijk op papier te hebben die we moeten onderlopen om de kwaliteit van onze code hoog te houden. In de workflow, die je hier onder kan zien, kan je alle stappen volgen die we hebben gebruik dit semester. Zodra er een nieuw backlog item is gaat het aangewezen persoon beginnen met de rest van de workflow. De reviews stukken die te zien zijn in de workflow wordt gedaan door andere groepsgenoten. 
 <img src="https://user-images.githubusercontent.com/77282414/173546681-7e53a6c8-7d97-45e4-a64a-d942c9a48720.png" width="600">
 
+We zijn er achter gekomen dat de workflow hierboven geen business process is. Het heeft eerder iets weg van een technisch proces. Ook wel het technische verloop van de handelingen binnen ons project. Een beter voorbeeld van een business process is een swimming lane diagram. Hier hebben we ook nog over gesproken met onze docent Marc.
+   
+"Een swimming lane, ook wel swimlane of zwembaandiagram genoemd is een stroomdiagram die een proces in kaart brengt. In de basis is een swimming lane diagram een stroomdiagram of flowchart. Het verschil met een flowchart is dat in een swimming lane banen worden gebruikt. Deze banen lijken op zwembanen in een zwembad, vandaar de naam. De banen laten zien wie verantwoordelijk is voor de stappen in het proces. De verantwoordelijkheid kan weergegeven worden op verschillende niveaus. Bijvoorbeeld op het niveau van een afdeling, team of het individuele niveau van een werknemer. De banen laten zien waar overdrachts- of communicatiemomenten zijn. Uiteindelijk helpt een swimming lane om verspillingen of inefficiënte stappen in een proces te identificeren."
+
+Bron:<a href"https://bureautromp.nl/swimming-lane/">https://bureautromp.nl/swimming-lane/</a>   
+   
+Ik en Jenson hebben samen nog de swimminglane methode doorlopen en begrijpen waarom dit een handige manier van het in kaart brengen van je business process kan zijn, zo zie je precies wie waarvoor verantwoordelijk is. En wie wat moet doen, dit is erg inzichtelijk en een fijne manier van werken. 
+   
+   
+   
 ## **8. Professional** 
       **Learning outcome:**
 
