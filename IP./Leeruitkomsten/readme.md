@@ -70,8 +70,14 @@ Bijvoorbeeld het ophalen van alle beoordelingen van een bepaald artikel. Dit is 
 
 ![image](https://user-images.githubusercontent.com/99723279/174198305-e0f85cc0-a2ce-493e-96d6-6381ae68776b.png)
 
+Daarnaast heb ik nog gebruik gemaakt van SonarCloud. Die analyseert je code en komt automatisch met beveiligings-issues etc. Het is makkelijk in gebruik en er wordt bij iedere push op master een automatische scan uitgevoerd.
 
+Dit was de kwaliteit in het begin:
 ![](https://imgur.com/MLqODCY.jpg)
+
+Dit is de kwaliteit nu:
+![image](https://user-images.githubusercontent.com/99723279/174198796-7afb0d64-a38a-4244-83ff-bb616750c7ee.png)
+
 
 # **CI/CD**
 Voor CI/CD heb ik bij zowel de front- als backend in github actions verschillende .yaml bestaden. Aan de hand van deze bestanden wordt mijn code automatisch gepusht en gedeployed.
