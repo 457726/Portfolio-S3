@@ -51,16 +51,32 @@ Natuurlijk heeft de gebruikte tabel in mijn database ook nog zijn eigen structuu
 
 
 ![](https://imgur.com/20A6xBF.jpg)
-# **Softwarekwaliteit**
-Om de softwarekwaliteit aan te tonen maak ik gebruik van SonarCloud, deze analyseert mijn code automatisch en goed gereviewed wordt. Iedere keer dat ik mijn code push naar git wordt deze geanalyseerd.
 
-![](https://imgur.com/MLqODCY.jpg)
 ## **BetterNews-BackEnd**
 [Repository](https://github.com/457726/VueBackEnd)
 ### **NewsAPI**
 Om mijn artikelen op te halen maak ik gebruik van een newsapi, deze geeft resultaten van verschillende nieuws websites wereldwijd. In mijn applicatie verwerk ik deze data tot passende data en zorg ik voor verschillende mogelijkheden om deze informatie op te halen.
 
 ![](https://imgur.com/zZh9dOI.jpg)
+
+# **Softwarekwaliteit**
+Softwarekwaliteit is geen eenvoudig begrip en kan van verschillende kanten bekeken worden. Zo kan je het zien als letterlijke kwaliteit van kode, maar op basis waarvan wordt deze kwaliteit dan bepaald? En wat voor eisen ga je hier aan stellen? Echter kan codekwaliteit ook als iets heel anders gezien, en dat is namelijk begrijpt de eindgebruiker de structuur van mijn applicatie? Is de opbouw logisch?
+
+Eigenlijk zijn dit allemaal onderdelen die samen de kwaliteit van de software maken. Ik wil hier mee zeggen dat softwarekwaliteit niet alleen het letterlijk op orde hebben van je code etc. is maar dat het ook een stukje structuur binnen je programma is en geen onnodige moeilijkheid of iets dergelijks.
+
+Ik heb voor het aantonen van mijn softwarekwaliteit verschillende dingen gedaan. Voor het testen van de softwarekwaliteit van mijn back-end heb ik er voor gekozen om gebruik te gaan maken van unit-tests. Dit in combinatie met een mockdal, dit is een techniek die je toepast als je de database niet wil raken. Nu weet ik zelf toevallig dat bij het gebruik van een ORM, bijv. Entity Framework je een in memory database kan draaien. Dit is als het ware een kopie van je database die alleen eventjes draait wanneer jij tests uit aan het voeren bent. Dit is erg handig en gebruiksvriendelijk. Maar omdat ik in dit geval geen gebruik heb gemaakt van Entity Framework heb ik zelf een mockdal aangemaakt met sortgelijke functies als mijn echte dal. Het verschil is dat ik in mijn mockdal een lijst met objecten heb die funtioneert als database.
+
+Ik heb verschillende unit-tests uitgevoerd, bijvoorbeeld het achterlaten van een review met bijbehorende titel, bericht en cijfer. Daarnaast heb ik ook nog enkele tests geschreven om te kijken of het toegevoegde object ook wel daadwerkelijk de juiste informatie mee krijgt en niet bijv. gewoon maar leeg is. 
+
+![image](https://user-images.githubusercontent.com/99723279/174198121-e48afd3c-c8aa-4f6f-98bf-99f600279b46.png)
+
+Bijvoorbeeld het ophalen van alle beoordelingen van een bepaald artikel. Dit is belangrijk voor het laten zien van alle opmerkingen bij een artikel. Ik heb dit getest door meerdere reviews toe te voegen van verschillende artikelen. Vervolgens vraag ik alle revieuws van een bepaald artikel op en kijk ik of ik daadwerkelijk dit aantal reviews opgeslagen heb.
+
+![image](https://user-images.githubusercontent.com/99723279/174198305-e0f85cc0-a2ce-493e-96d6-6381ae68776b.png)
+
+
+![](https://imgur.com/MLqODCY.jpg)
+
 # **CI/CD**
 Voor CI/CD heb ik bij zowel de front- als backend in github actions verschillende .yaml bestaden. Aan de hand van deze bestanden wordt mijn code automatisch gepusht en gedeployed.
 
