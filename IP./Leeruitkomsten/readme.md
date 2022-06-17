@@ -136,4 +136,18 @@ jobs:
 ```
 
 # **Professional**
-Voor het professioneel schrijven van mijn code wil ik gebruik gaan maken van een passende workflow. Hierdoor laat ik zien problemen serieus te nemen en deze op zo een passende manier mogelijk op te lossen. Dit werkt uiteindelijk in mijn voordeel omdat ik hierdoor het overzicht hou en hier op kan anticiperen.
+
+## **Git Workflow**
+
+Ik wilde gebruik gaan maken van een simpele git workflow. Dit omdat ik nog niet eerder bewust met een workflow gewerkt had en daarnaast de enigste ontwikkelaar zou zijn binnen dit project. Ik heb gekozen voor de git workflow "Feature branches"
+
+"De workflow van de feature branch gaat ervan uit dat alle ontwikkelaars in het team dezelfde kennis en positie hebben. In grotere teams is er echter altijd een vorm van hiërarchie in het bedrijf.
+
+In dit geval kun je merge-verzoeken en push-permissies gebruiken waarmee je het pushen tot geselecteerde branches in de repository kunt beperken en de volledige controle over de code kunt behouden.
+
+Voordat een branch wordt samengevoegd met Master, moet deze worden geverifieerd en gecontroleerd op fouten. Junior-ontwikkelaars kunnen een samenvoegverzoek maken en dit toewijzen aan een van de Senioren, zodat ze de code kunnen bekijken en opmerkingen kunnen achterlaten. Als alles in orde is, wordt het verzoek geaccepteerd en wordt de branch samengevoegd."
+
+Bron: <a href="https://buddy.works/blog/5-types-of-git-workflows">Git Workflows</a>
+
+![image](https://user-images.githubusercontent.com/99723279/174199816-9823674f-a622-4ac8-9179-0970bf9fcf64.png)
+
