@@ -26,6 +26,8 @@ Mijn applicatie biedt ook een mogelijkheid om op een specifiek onderwerp te zoek
 ### **Accounts**
 Ik maak gebruik van auth0 voor user-accounts, zo kan ik gebruikers bijhouden. Ook wil ik er voor zorgen dat gebruikers een beoordeling kunnen achterlaten op een artikel.
 
+![](https://imgur.com/20A6xBF.jpg)
+
 ### **Beoordelingen**
 Het is ook mogelijk om een beoordeling achter te laten voor een artikel. Hiervoor klik je op de knop "Beoordeel". Je komt dan op een pagina waar je netjes je mening achter kan laten en er voor kan kiezen om 1 tot 5 sterren te geven.
 
@@ -50,14 +52,7 @@ Natuurlijk heeft de gebruikte tabel in mijn database ook nog zijn eigen structuu
 ![image](https://user-images.githubusercontent.com/99723279/174196384-bd401e40-a64a-4978-b4e9-e8a57c2d7d38.png)
 
 
-![](https://imgur.com/20A6xBF.jpg)
 
-## **BetterNews-BackEnd**
-[Repository](https://github.com/457726/VueBackEnd)
-### **NewsAPI**
-Om mijn artikelen op te halen maak ik gebruik van een newsapi, deze geeft resultaten van verschillende nieuws websites wereldwijd. In mijn applicatie verwerk ik deze data tot passende data en zorg ik voor verschillende mogelijkheden om deze informatie op te halen.
-
-![](https://imgur.com/zZh9dOI.jpg)
 
 # **Softwarekwaliteit**
 Softwarekwaliteit is geen eenvoudig begrip en kan van verschillende kanten bekeken worden. Zo kan je het zien als letterlijke kwaliteit van kode, maar op basis waarvan wordt deze kwaliteit dan bepaald? En wat voor eisen ga je hier aan stellen? Echter kan codekwaliteit ook als iets heel anders gezien, en dat is namelijk begrijpt de eindgebruiker de structuur van mijn applicatie? Is de opbouw logisch?
