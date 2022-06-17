@@ -14,11 +14,12 @@ Voor het bouwen van een full-stack applicatie zal ik gebruik gaan maken van een 
 [Repository](https://github.com/457726/betternewsfrontend-s3)
 ### **Homepage**
 Op de homepage krijg je een overzicht te zien van de meest trending nieuwsartikelen op dat moment, zodat mensen die niet opzoek zijn naar een specifiek onderwerp maar naar actualiteiten ook terecht kunnen op mijn website.
-( afbeelding )
+![image](https://user-images.githubusercontent.com/99723279/174196730-53e25e0b-9099-426e-b039-dc22e9dcaeb4.png)
 ### **Specifieke pagina’s**
 In mijn applicatie heb ik voor een aantal onderwerpen gekozen die ik zelf relevant vindt, wanneer je op een van deze onderwerpen klikt krijg je een overzicht te zien van de nieuwsartikelen gerelateerd aan dit onderwerp.
 
-( afbeelding )
+![image](https://user-images.githubusercontent.com/99723279/174196688-165c1c50-114b-4aea-bd69-e3ec9e6806d0.png)
+
 ### **Zoeken**
 Mijn applicatie biedt ook een mogelijkheid om op een specifiek onderwerp te zoeken, zodat een gebruiker die weet wat hij zoekt gericht nieuwsartikelen kan vinden over dit onderwerp. Je krijgt een overzicht te zien van verschillende nieuwswebsites.
 
