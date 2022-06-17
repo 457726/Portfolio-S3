@@ -151,3 +151,8 @@ Bron: <a href="https://buddy.works/blog/5-types-of-git-workflows">Git Workflows<
 
 ![image](https://user-images.githubusercontent.com/99723279/174199816-9823674f-a622-4ac8-9179-0970bf9fcf64.png)
 
+In de praktijk heb ik deze workflow ook toegpast en dit beviel me erg goed. Echter zou ik in een groter team voor een andere workflow kiezen.
+
+## **Feedback**
+
+Het feedback vragen verliep bij mij in het begin van het schooljaar nog niet zoals ik gewild had. Ik was te veel bezig met onderzoeken, en bleef hier zo in hangen dat ik er niet aan dacht om ook de voortgang te laten zien of in ieder geval te laten weten dat ik bezig was met onderzoek en nog niet zo zeer functioneel. Een volgende keer wil ik dan ook structureel de docent gaan spreken en er voor zorgen dat deze op de hoogte blijft van zowel mijn praktische voortgang als bijv. mijn onderzoeksvoortgang zodat de vakdocent een goede visie op mijn voortgang heeft.
