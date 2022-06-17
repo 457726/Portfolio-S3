@@ -150,7 +150,13 @@ Naar mate het project vorderde merkte ik dat de communicatie binnen het groepje 
 
 Voor het zo soepel mogelijk samenwerken binnen github hebben we gebruik gemaakt van een workflow. Op deze manier konden we aan verschillende features werken op het zelfde moment zonder dat hier een concreet risico op merge conflicten uit voort kwam. Dit heeft voor ons goed gewerkt en zorgde er tevens voor dat er veilig en zonder problemen gedeployed kon worden naar Azure.
 
+We hebben gekozen om binnen ons project te werken met de personal branching git workflow. Dit houdt in dat iedereen die ergens aan het werken is werkt op een persoonlijke branch waar hij/zij zijn code op ontwikkeld. Wanneer deze code klaar en gecontrolleerd is op kwaliteit etc. kan deze terug gemerged worden naar de main branch, het verloop hiervan is dan ook hier beneden te zien.   
+   
 Dit is het branch verloop van onze git repository:
 
 <img src="https://user-images.githubusercontent.com/77282414/173251063-a283d762-1a96-4929-a0f5-1285c0e213df.PNG" width="650"
      >
+   
+   Dit project heb ik voor de eerste keer gewerkt met de programmeertaal Vue.js, ik heb hier veel over kunnen leren en vind dat ik erg ver ben gekomen in de tijd die we hadden desondanks het feit dat we onze front-end tot wel 5 keer toe opnieuw hebben moeten bouwen. We kwamen er namelijk achteraf pas achter dat je bepaalde componenten alleen kan gebruiken als deze vanaf het begin in je project zitten zoals routers, daarnaast is het zo dat we begonnen zijn met een vue project in combinatie met typescript, echter bleek het zo te zijn dat bijv. routers alleen gebruikt konden worden in combinatie met javascript. Wederom een van de redenen dat we opnieuw hebben moeten beginnen, al met al hebben we redelijk wat tegenslagen gehad binnen de proftaak, zo ook het wegvallen van een aantal teamleden. Toch ben ik erg tevreden over wat we uiteindelijk hebben kunnen neerzetten met de overgebleven mensen en ben ik van mening dat we zelfs misschien een beetje boven onszelf zijn uitgestegen. 
+
+
