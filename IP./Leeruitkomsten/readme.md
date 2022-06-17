@@ -65,6 +65,7 @@ Ik heb voor het aantonen van mijn softwarekwaliteit verschillende dingen gedaan.
 Ik heb verschillende unit-tests uitgevoerd, bijvoorbeeld het achterlaten van een review met bijbehorende titel, bericht en cijfer. Daarnaast heb ik ook nog enkele tests geschreven om te kijken of het toegevoegde object ook wel daadwerkelijk de juiste informatie mee krijgt en niet bijv. gewoon maar leeg is. 
 
 ![image](https://user-images.githubusercontent.com/99723279/174198121-e48afd3c-c8aa-4f6f-98bf-99f600279b46.png)
+![image](https://user-images.githubusercontent.com/99723279/174257726-09ca1912-8294-4c8c-b9f5-eee426469bc5.png)
 
 Bijvoorbeeld het ophalen van alle beoordelingen van een bepaald artikel. Dit is belangrijk voor het laten zien van alle opmerkingen bij een artikel. Ik heb dit getest door meerdere reviews toe te voegen van verschillende artikelen. Vervolgens vraag ik alle revieuws van een bepaald artikel op en kijk ik of ik daadwerkelijk dit aantal reviews opgeslagen heb.
 
