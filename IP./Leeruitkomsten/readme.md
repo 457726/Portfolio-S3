@@ -70,7 +70,10 @@ Bijvoorbeeld het ophalen van alle beoordelingen van een bepaald artikel. Dit is 
 
 ![image](https://user-images.githubusercontent.com/99723279/174198305-e0f85cc0-a2ce-493e-96d6-6381ae68776b.png)
 
-Daarnaast heb ik nog gebruik gemaakt van SonarCloud. Die analyseert je code en komt automatisch met beveiligings-issues etc. Het is makkelijk in gebruik en er wordt bij iedere push op master een automatische scan uitgevoerd.
+# **CI/CD**
+Voor CI/CD heb ik bij zowel de front- als backend in github actions verschillende .yaml bestaden. Aan de hand van deze bestanden wordt mijn code automatisch gepusht en gedeployed.
+
+Ik heb gebruik gemaakt van SonarCloud. Die analyseert je code en komt automatisch met beveiligings-issues etc. Het is makkelijk in gebruik en er wordt bij iedere push op master een automatische scan uitgevoerd.
 
 Dit was de kwaliteit in het begin:
 ![](https://imgur.com/MLqODCY.jpg)
@@ -78,10 +81,59 @@ Dit was de kwaliteit in het begin:
 Dit is de kwaliteit nu:
 ![image](https://user-images.githubusercontent.com/99723279/174198796-7afb0d64-a38a-4244-83ff-bb616750c7ee.png)
 
+## **CD**
 
-# **CI/CD**
-Voor CI/CD heb ik bij zowel de front- als backend in github actions verschillende .yaml bestaden. Aan de hand van deze bestanden wordt mijn code automatisch gepusht en gedeployed.
+De CD regel ik doormiddel van Azure, zowel mijn front- als backend staan beide gedployed op azure. En worden bij iedere release ook weer opnieuw gedeployed zodat continue uptime gegarandeerd is.
 
-Op dit moment heb ik in mijn github verschillende .yaml bestanden die automatisch integreren.
+<a href="https://ashy-ground-072245e03.1.azurestaticapps.net/">Front-end</a>\
+<a href="https://newsbackendapiservice-s3.azurewebsites.net/">Back-end</a>
+
+Microsoft Azure Platform (voorheen: Windows Azure Platform) is een cloudcomputingplatform van Microsoft waarmee een aantal internetdiensten aangeboden kan worden via het internet of binnen de omgeving van het eigen bedrijf. Microsoft wil hiermee de concurrentie aangaan met andere cloudsystemen die software as a service (SaaS) aanbieden, zoals Google Compute Engine van Google en EC2 van Amazon. Deze software hoeft niet geïnstalleerd te worden op de computer van de gebruiker, alles gebeurt via het web; aan de server-kant.
+
+Hier beneden zie je de workflow die ik gebruik voor mijn back-end. Op deze manier wordt er iedere keer een nieuwe versie gedeployed naar azure.
+
+``` yaml
+name: Build and deploy .NET Core app to Windows WebApp NewsBackEndAPIService-S3
+on:
+  push:
+    branches:
+    - main
+env:
+  AZURE_WEBAPP_NAME: NewsBackEndAPIService-S3
+  AZURE_WEBAPP_PACKAGE_PATH: NewsBackEnd/publish
+  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.NewsBackEndAPIService_S3_b384 }}
+  CONFIGURATION: Release
+  DOTNET_CORE_VERSION: 5.0.x
+  WORKING_DIRECTORY: NewsBackEnd
+jobs:
+  build-and-deploy:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
+    - name: Restore
+      run: dotnet restore "${{ env.WORKING_DIRECTORY }}"
+    - name: Build
+      run: dotnet build "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --no-restore
+    - name: Test
+      run: dotnet test "${{ env.WORKING_DIRECTORY }}" --no-build
+    - name: Publish
+      run: dotnet publish "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --no-build --output "${{ env.AZURE_WEBAPP_PACKAGE_PATH }}"
+    - name: Deploy to Azure WebApp
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        publish-profile: ${{ env.AZURE_WEBAPP_PUBLISH_PROFILE }}
+    - name: Publish Artifacts
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: webapp
+        path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+```
+
 # **Professional**
 Voor het professioneel schrijven van mijn code wil ik gebruik gaan maken van een passende workflow. Hierdoor laat ik zien problemen serieus te nemen en deze op zo een passende manier mogelijk op te lossen. Dit werkt uiteindelijk in mijn voordeel omdat ik hierdoor het overzicht hou en hier op kan anticiperen.
